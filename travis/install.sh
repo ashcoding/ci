@@ -96,7 +96,7 @@ if [ -d "$MODULE_ROOT/android/" ]; then
 
   # Install required Android components.
   echo yes | android -s update sdk --no-ui --all --filter \
-    tools,build-tools-23.0.3,platform-tools,extra-android-support,android-8,android-10,android-$TITANIUM_ANDROID_API,addon-google_apis-google-$TITANIUM_ANDROID_API
+    tools,build-tools-23.0.1,platform-tools,extra-android-support,android-8,android-10,android-$TITANIUM_ANDROID_API,addon-google_apis-google-$TITANIUM_ANDROID_API
     
   # NDK r8c
   echo
